@@ -1,0 +1,47 @@
+table{
+    border-collapse: collapse;
+   }
+   #sonuc{
+    width: 104.7px;
+    height: 20.56px;
+    text-align: right;
+   }
+   button{
+    width: 23.26px;
+    height: 21.2px;
+    background-color: red;
+    color: aliceblue;
+   }
+   #esit{
+    height: 125px;
+   }
+
+   div{
+    display: inline-block;
+   }
+
+   #history{
+    max-width: 125.5px;
+    max-height: 125.5px;
+    min-width: 125.5px;
+    min-height: 125.5px;
+   }
+
+   #input{
+    display: block;
+   }
+
+   #ok{
+    width: 32px;
+    height: 21.2px;
+    background-color: red;
+    color: aliceblue;
+   }
+
+   .tuslar > td {
+    border: none;
+   }
+
+   .ekbuttonlar{
+    height: 49.22px;
+   }

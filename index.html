@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div>
+        <table border="1">
+            <tr>
+                <td colspan="6" id="sonuc"></td>
+                <td rowspan="5">
+                    <button id="esit">=</button>
+                </td>
+            </tr>
+            <tr class="tuslar">
+                <td class="sayi">
+                    <button class="sayilar">7</button>
+                </td>
+                <td class="sayi">
+                    <button class="sayilar">8</button>
+                </td>
+                <td class="sayi">
+                    <button class="sayilar">9</button>
+                </td>
+                <td class="islemler">
+                    <button class="islem">/</button>
+                </td>
+                <td class="islemler">
+                    <button id="us" class="islemler">^</button>
+                </td>
+
+                <td class="islemler" rowspan="2">
+                    <button id="faktoriyel" class="ekbuttonlar">!</button>
+                </td>
+            </tr>
+            <tr class="tuslar"> 
+                <td class="sayi">
+                    <button class="sayilar">4</button>
+                </td>
+                <td class="sayi">
+                    <button class="sayilar">5</button>
+                </td>
+                <td class="sayi">
+                    <button class="sayilar">6</button>
+                </td>
+                <td class="islemler">
+                    <button class="islem">*</button>
+                </td>
+                <td class="islemler">
+                    <button id="sqrt" class="islemler">√</button>
+                </td>
+            </tr>
+            <tr class="tuslar"> 
+                <td class="sayi">
+                    <button class="sayilar">1</button>
+                </td>
+                <td class="sayi">
+                    <button class="sayilar">2</button>
+                </td>
+                <td class="sayi">
+                    <button class="sayilar">3</button>
+                </td>
+                <td class="islemler">
+                    <button class="islem">-</button>
+                </td>
+                <td class="islemler">
+                    <button id="save" class="islemler">S</button>
+                </td>
+                <td class="islemler" rowspan="2">
+                    <button id="mod" class="ekbuttonlar">%</button>
+                </td>
+
+            </tr>
+            <tr class="tuslar">
+                <td class="sayi">
+                    <button class="sayilar">0</button>
+                </td>
+                <td class="sayi">
+                    <button id="temizle">T</button>
+                </td>
+                <td class="sayi">
+                    <button class="sayilar" id="nokta">.</button>
+                </td>
+                <td class="islemler">
+                    <button class="islem">+</button>
+                </td>
+                <td class="islemler">
+                    <button id="backspace" class="islemler">⌫</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <textarea name="islem gecmisi" id="history" readonly></textarea>
+    </div>
+    <div id="input">
+        <input type="color" id="color">
+        <button id="ok">OK</button>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
